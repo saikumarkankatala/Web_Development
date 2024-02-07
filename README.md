@@ -1,13 +1,16 @@
 # Web_development_1
-Node.js Project
+Node.js Project:
 This repository contains a Node.js server project created for an assignment. The project utilizes Express.js, EJS, and Express EJS layouts modules to create a simple web server with three unique routes for rendering EJS files.
 
 Project Structure
 The project consists of the following files and directories:
 
-server.js: The main file containing the Node.js server logic.
+server.js: The main file containing the Node.js server logic
+
 views/: Directory containing EJS template files.
+
 home.ejs: EJS file for the home page.
+
 about.ejs: EJS file for the about page.
 movie.ejs: EJS file for displaying a list of favorite movies.
 partials/: Directory containing partial EJS files.
