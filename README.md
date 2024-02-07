@@ -31,16 +31,15 @@ npm start
 Open your web browser and navigate to http://localhost:3000 to view the home page.
 
 Routes
+
 Home Page: Route: /
+Displays the home page
 
-Displays a paragraph about what the user would like to gain out of the class.
-Displays the pawprint variable sent from the server.
 About Page: Route: /about
-
 Displays information about the user.
 Displays the Name variable sent from the server.
-Movie Page: Route: /movie
 
+Movie Page: Route: /movie
 Displays a list of the top 10 favorite movies.
 The list includes the title of the movie, the leading stars, and the director.
 Movie information is generated on the server and passed to the EJS file for display.
