@@ -12,32 +12,22 @@ views/: Directory containing EJS template files.
 home.ejs: EJS file for the home page.
 
 about.ejs: EJS file for the about page.
+
 movie.ejs: EJS file for displaying a list of favorite movies.
+
 partials/: Directory containing partial EJS files.
+
 layout.ejs: Boilerplate layout file used on all EJS files.
+
 header.ejs: Partial containing the navigation bar.
+
 public/: Directory for static files (e.g., CSS, JavaScript).
-node_modules/: Directory containing project dependencies (not included in submission).
-Usage
-Clone the repository to your local machine.
 
-bash
-Copy code
-git clone https://github.com/saikumarkankatala/Web_development_1.git
-Navigate to the project directory.
-
-bash
-Copy code
-cd Web_development_1
 Install dependencies using npm.
-
-Copy code
 npm install
 Start the server using nodemon.
-
-sql
-Copy code
 npm start
+
 Open your web browser and navigate to http://localhost:3000 to view the home page.
 
 Routes
@@ -54,8 +44,4 @@ Movie Page: Route: /movie
 Displays a list of the top 10 favorite movies.
 The list includes the title of the movie, the leading stars, and the director.
 Movie information is generated on the server and passed to the EJS file for display.
-Dependencies
-express: Fast, unopinionated, minimalist web framework for Node.js.
-ejs: Embedded JavaScript templating.
-express-ejs-layouts: Layout support for EJS in Express.
-nodemon: Automatically restarts the server when changes are detected (development dependency).
+
