@@ -1,0 +1,19 @@
+<mat-card class="textareacss">
+    <textarea class ="txtare" [(ngModel)]="tt" ></textarea>
+    <button class="button1" (click)="add()" >Submit</button>
+  </mat-card>
+  <mat-card class="card2"> </mat-card>
+  <mat-expansion-panel class="panel">
+    <mat-expansion-panel-header>
+        <mat-panel-title >
+            post: {{str.length}}
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-card>
+      <mat-list>
+        <mat-list-item *ngFor="let i of str">
+          {{ i }} 
+        </mat-list-item>
+      </mat-list>
+    </mat-card>
+  </mat-expansion-panel>

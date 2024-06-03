@@ -1,0 +1,26 @@
+.textareacss{
+    width: 56%;
+    margin-top: 80px;
+    }
+
+    .txtare{
+        height: 300px;
+        width: 700px;
+    }
+    .button1{
+        width: 50%;
+        margin: 10px;
+        margin-left: 120px;
+    }
+    .panel{
+        width: 43%;
+        margin-top: 20px;
+        position:absolute;
+        right:10px;
+        height:fit-content;
+        top: 10px;
+        margin-top: 64px;
+    }
+    .card2{
+        margin-bottom: 100px;
+    }

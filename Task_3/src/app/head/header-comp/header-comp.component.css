@@ -1,0 +1,18 @@
+.filler {
+    flex: 1 1 auto;
+ }
+ .name {
+    margin-right: 10px;
+    
+ }
+ 
+.block1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+.home{
+   margin-left: 50px;
+}   
