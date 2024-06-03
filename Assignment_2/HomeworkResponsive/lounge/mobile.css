@@ -1,0 +1,80 @@
+#elixirs {
+    border:              thin solid #007e7e;
+    width:               95%;
+    padding:             0px 20px 20px 0px;
+    margin:              0px -3px;
+    text-align:          center;
+    float:               left;
+}
+
+#guarantee{
+    margin-right: 10px;
+    float: right;
+}
+
+body {
+    display: grid;
+    font-size: 1.2rem;
+}
+
+p, li {
+    padding: 2px;
+    font-size: 105%;
+}
+
+h1, h2 {
+    color:               #007e7e;
+  }
+  
+  h1 {
+    font-size:           150%;
+  }
+  
+  h2 {
+    font-size:           130%;
+  }
+
+  #elixirs h2 {
+    color:               black;
+  }
+  
+  #elixirs h3 {
+    color:               #d12c47;
+  }
+  
+  #footer {
+    font-size:           50%;
+    text-align:          center;
+    line-height:         normal;
+    margin-top:          30px;
+  }
+  
+  .cd {
+    font-style:          italic;
+  }
+  
+  .artist {
+    font-weight:         bold;
+  }
+  
+  a:link {
+    color:               #007e7e;
+  }
+  
+  a:visited {
+    color:               #333333;
+  }
+  
+  #elixirs a:link {
+    color:               #007e7e;
+  }
+  
+  #elixirs a:visited {
+    color:               #333333;
+  }
+  
+  #elixirs a:hover {
+    background:          #f88396;
+    color:               #0d5353;
+  }
+  
